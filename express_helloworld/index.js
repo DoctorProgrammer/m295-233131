@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
-app.get('/', (req, res) => 
+app.get('/', (req, res) =>
     res.send('Hello World!')
 );
 
@@ -47,11 +47,9 @@ app.get('/name', (req, res) => {
     res.send(randomName);
 });
 
-/*
 app.get('/html', (req, res) => {
     res.sendFile(__dirname + '/index.html');
 });
-*/
 
 app.get('/image', (req, res) => {
     res.sendFile(__dirname + '/image.jpg');
@@ -69,8 +67,8 @@ app.get('/secret', (req, res) => {
     res.status(403).send('You are not authorized to access this page');
 });
 
-app.get('/html', (req, res) => {
-    res.sendFile(__dirname + '/index.xml');
+app.get('/xml', (req, res) => {
+    res.sendFile(__dirname + '/techshop.xml');
 });
 
 app.get('/me', (req, res) => {
@@ -83,5 +81,5 @@ app.get('/me', (req, res) => {
 });
 
 app.listen(port, () =>
-    console.log(`App listening on port ${port}!`)
+    console.log(`\nPort: ${port}\thttp://localhost:${port}\t\t${new Date().toString()}`)
 );

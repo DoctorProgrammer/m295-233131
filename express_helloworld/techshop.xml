@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./techshop.xsl"?>
+<techshop>
+  <product>
+    <name>Apple MacBook Pro</name>
+    <description>The ultimate pro notebook, featuring the fastest processors, advanced graphics, and stunning Retina display.</description>
+    <price>1999.00</price>
+    <image>https://example.com/macbookpro.jpg</image>
+  </product>
+  <product>
+    <name>Microsoft Surface Laptop 4</name>
+    <description>Experience the versatility and performance of Surface Laptop 4 with improved durability, touchscreen, and choice of colors.</description>
+    <price>1299.00</price>
+    <image>https://example.com/surfacelaptop.jpg</image>
+  </product>
+  <product>
+    <name>Asus ROG Zephyrus G15</name>
+    <description>Unleash your gaming dominance with the ultra-slim ROG Zephyrus G15, featuring the latest AMD Ryzen processors and NVIDIA graphics.</description>
+    <price>1599.00</price>
+    <image>https://example.com/rogzephyrus.jpg</image>
+  </product>
+</techshop>
